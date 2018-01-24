@@ -1,0 +1,29 @@
+.header
+  #header-wraper
+    #header__top
+      #logo-area
+        %p ITエンジニアの転職なら | プロエンジニア
+        #logo
+          = link_to "" do
+            = image_tag "logo.svg"
+      #contact-area
+        %ul
+          %li.contact-text
+            = link_to "企業担当皆様へ", "", class:"company-contact"
+          %li.contact-text.contact-text__operating
+            = link_to "運営会社", ""
+          %li.contact-text.contact-text__link
+            = link_to "お問合わせ", ""
+    #navi-area
+      %ul
+        %li.menu.menu__na1
+          = link_to "ホーム", ""
+        %li.menu.menu__na2
+          = link_to "プロエンジニアとは", ""
+        %li.menu.menu__na3
+          = link_to "サビース", ""
+        %li.menu.menu__na4
+          = link_to "正社員求人情報", ""
+        %li.menu.menu__na5
+          = link_to "フリーランス案件情報", ""
+  .top-shadow
