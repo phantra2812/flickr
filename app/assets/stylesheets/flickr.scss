@@ -103,3 +103,44 @@ li.menu {
   height: 5px;
 }
 
+#main-visual{
+  height: 390px;
+  background-color: #444;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.main-visual-in{
+  margin: 0 auto;
+  width: 1200px;
+  height: 486px;
+
+  &__slider{
+    margin: 0 auto 0;
+    width: 1200px;
+    background-color: #ffffff;
+  }
+  &__text-area{
+    position: absolute;
+    top: 13%;
+    right: 18%;
+    z-index: 200;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+li.image img {
+  width: 1200px;
+  height: 486px;
+  float: left;
+}
+
+img.text-in-slider{
+  height: 209px;
+  width: 372px;
+}
+
