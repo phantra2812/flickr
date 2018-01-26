@@ -44,6 +44,9 @@ gem 'devise'
 gem 'pry-rails'
 gem 'jquery-turbolinks'
 gem 'carrierwave'
+gem 'sass-rails', '~> 5.0'
+gem 'jquery-rails'
+gem 'jquery-slick-rails'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
