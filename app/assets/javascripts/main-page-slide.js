@@ -1,7 +1,5 @@
 $(document).on('turbolinks:load', function(){
-  $('.slide-image').bxSlider({
-    auto: true,
-    slideWidth: 640,
-    minSlides: 3
+  $('.main-visual-in__slider').flexslider({
+    animation: "slide"
   });
 })
